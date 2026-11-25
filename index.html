@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>とみおかクリーニング w/ CAFE & LAUNDRY 札幌本店｜札幌市中央区の洗う・食べる・買う</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14213d;--gold:#b08d57;--ivory:#faf8f4;--ink:#222a3a;--mute:#6a7183;--line:#e6e0d4;
+--serif:"Noto Serif JP","Yu Mincho",serif;--sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif}
+*{box-sizing:border-box;margin:0}
+html{overflow-x:hidden;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{font-family:var(--sans);color:var(--ink);background:#fff;line-height:1.95;word-break:keep-all;overflow-wrap:anywhere;line-break:strict;overflow-x:hidden}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+.nb{display:inline-block;max-width:100%}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.6;color:var(--navy)}
+h2{font-size:1.65rem;text-align:center;letter-spacing:.08em;margin-bottom:48px}
+h2::after{content:"";display:block;width:36px;height:2px;background:var(--gold);margin:16px auto 0}
+.en{display:block;font-family:var(--serif);font-size:.78rem;letter-spacing:.3em;color:var(--gold);margin-bottom:6px}
+section{padding:88px 0}
+.fv{position:relative;display:flex;align-items:center;min-height:max(560px,min(50vw,720px));background-color:#cfe6ea;background-image:url("images/hero.jpg"),linear-gradient(135deg,#e3f1f3,#b9dce1);background-size:cover;background-position:center;background-repeat:no-repeat}
+.fv::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.62) 0%,rgba(255,255,255,.5) 60%,rgba(255,255,255,.12) 100%)}
+.fv .in{position:relative;z-index:1;width:100%;max-width:1100px;margin:0 auto;padding:72px 24px;display:flex;align-items:flex-start;gap:clamp(40px,6vw,90px);text-shadow:0 0 14px rgba(255,255,255,.9)}
+.fv .vt{writing-mode:vertical-rl;flex:none;color:#111}
+.fv h1{display:block;font-family:var(--serif);font-weight:400;font-size:clamp(2rem,3.4vw,3rem);line-height:2;letter-spacing:.08em;color:#111;white-space:nowrap}
+.fv h1 span{display:block}
+.fv .label{display:block;margin-right:clamp(32px,5vw,72px);font-family:var(--serif);font-size:clamp(.8rem,1vw,.95rem);line-height:2;letter-spacing:.12em;color:#111;white-space:nowrap}
+.fv .txt{padding-top:10px;min-width:0}
+.fv .txt p{font-family:var(--sans);font-size:clamp(.95rem,1.25vw,1.1rem);line-height:2;color:#111;margin-bottom:44px}
+.fv .txt p span{display:block}
+.fv .btn{display:flex;align-items:center;justify-content:center;width:254px;max-width:100%;height:61px;padding:0;background:#000;border:1px solid #000;color:#fff;font-family:var(--sans);font-size:1rem;letter-spacing:.06em;text-shadow:none}
+.fv .btn:hover{background:#fff;color:#000}
+@media(max-width:700px){.fv::before{background:rgba(255,255,255,.6)}.fv .in{flex-direction:column;gap:32px;padding:56px 24px}.fv h1{font-size:2rem}}
+.btn{display:inline-block;background:var(--navy);color:#fff;text-decoration:none;font-family:var(--serif);letter-spacing:.14em;padding:16px 44px;border:1px solid var(--navy);transition:.25s;max-width:100%}
+.btn:hover{background:#fff;color:var(--navy)}
+.btn.ghost{background:#fff;color:var(--navy);border-color:var(--gold)}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.hero{background:linear-gradient(var(--ivory) 50%,#fff 50%);padding-bottom:64px}
+.hero img{display:block;width:100%;max-width:760px;height:auto;margin:0 auto;box-shadow:0 20px 50px rgba(20,33,61,.12)}
+.band{background:var(--navy);color:#fff;text-align:center;padding:44px 0}
+.band p{font-family:var(--serif);letter-spacing:.1em;margin-bottom:18px}
+.band .btn{background:transparent;border-color:var(--gold);color:#fff}
+.band .btn:hover{background:var(--gold);color:var(--navy)}
+.worry{background:var(--ivory)}
+.worry ul{list-style:none;padding:0;max-width:34em;margin:0 auto 30px;border-top:1px solid var(--line)}
+.worry li{padding:16px 8px 16px 32px;border-bottom:1px solid var(--line);position:relative}
+.worry li::before{content:"";position:absolute;left:8px;top:50%;width:8px;height:8px;background:var(--gold);transform:translateY(-50%) rotate(45deg)}
+.worry .ans{text-align:center;font-family:var(--serif);font-size:1.15rem;color:var(--navy)}
+.items{display:grid;gap:72px}
+.item{display:grid;gap:28px;grid-template-columns:1fr;align-items:center}
+@media(min-width:780px){.item{grid-template-columns:1fr 1fr;gap:56px}.item:nth-child(even) .pic{order:2}}
+.pic{background:var(--ivory);border:1px solid var(--line);aspect-ratio:4/3;min-width:0}
+.pic img{display:block;width:100%;height:100%;object-fit:cover}
+.item .no{font-family:var(--serif);color:var(--gold);letter-spacing:.2em;font-size:.9rem}
+.item h3{font-size:1.35rem;margin:4px 0 12px}
+.soft{background:var(--ivory)}
+.box{max-width:720px;margin:0 auto;background:#fff;border:1px solid var(--line);padding:32px 28px}
+.box p+p{margin-top:.8em}
+.box ul{padding-left:1.2em;margin:10px 0}
+.box li{margin-bottom:4px}
+.note{font-size:.88rem;color:var(--mute);margin-top:14px}
+.badge{display:inline-block;border:1px solid var(--gold);color:var(--gold);font-size:.85rem;letter-spacing:.2em;padding:2px 16px;margin-bottom:12px}
+.voices{display:grid;gap:24px;max-width:720px;margin:0 auto}
+.v{border:1px solid var(--line);padding:24px 26px;background:#fff}
+.stars{color:var(--gold);letter-spacing:.15em;margin-bottom:6px}
+dl.info{max-width:720px;margin:0 auto 36px;border-top:1px solid var(--line)}
+dl.info div{display:grid;grid-template-columns:8em 1fr;gap:12px;padding:16px 4px;border-bottom:1px solid var(--line)}
+dl.info dt{font-family:var(--serif);color:var(--navy)}
+dl.info dd{min-width:0}
+dl.info a{color:var(--navy);overflow-wrap:anywhere;word-break:break-all}
+.map{max-width:720px;margin:0 auto;border:1px solid var(--line)}
+.map iframe{display:block;width:100%;height:380px;border:0}
+.maplink{text-align:center;margin-top:24px}
+.final{background:var(--navy);color:#fff;text-align:center;padding:80px 0}
+.final .lead{font-family:var(--serif);font-size:1.4rem;letter-spacing:.1em;margin-bottom:28px;color:#fff}
+.final .btn{background:#fff;color:var(--navy);border-color:#fff}
+.final .sub{margin-top:18px;font-size:.95rem}
+.final .sub a{color:#fff}
+footer{background:#0d1730;color:#aab3c8;text-align:center;font-size:.8rem;padding:20px;letter-spacing:.08em}
+@media(max-width:520px){section{padding:64px 0}dl.info div{grid-template-columns:1fr;gap:2px}.box{padding:28px 20px}}
+</style>
+</head>
+<body>
+<main>
+<div class="fv"><div class="in">
+  <div class="vt">
+    <h1><span>洗う・食べる・買う。</span><span>ひとつの場所で。</span></h1>
+    <span class="label">とみおかクリーニング札幌本店　札幌市中央区</span>
+  </div>
+  <div class="txt">
+    <p><span>札幌市中央区のクリーニング店。</span><span>コインランドリー、カフェスタンド、</span><span>ライフスタイルショップを併設しています。</span></p>
+    <a class="btn" href="#access">店舗情報を見る</a>
+  </div>
+</div></div>
+
+<div class="band"><div class="wrap">
+  <p>ご相談は、お電話・お問い合わせフォームから</p>
+  <a class="btn" href="tel:08047315551">080-4731-5551</a>
+</div></div>
+
+<section class="worry"><div class="wrap">
+  <h2><span class="en">WORRIES</span>こんなときに</h2>
+  <ul>
+    <li>洗濯の待ち時間を、ゆったり過ごしたい</li>
+    <li>早朝や夜遅くにも、洗濯したい</li>
+    <li>お洗濯を、もっと楽しくしたい</li>
+  </ul>
+  <p class="ans">とみおかクリーニングへ、お立ち寄りください。</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2><span class="en">FEATURES</span>洗う・食べる・買う</h2>
+  <div class="items">
+    <article class="item">
+      <div class="pic"><img src="images/feature1.jpg" alt="コインランドリーのイメージ" loading="lazy"></div>
+      <div><span class="no">01</span><h3>洗う</h3><p>最新鋭の洗濯機器を備えたコインランドリーです。5:00〜25:00の間、お好きな時間にご利用いただけます。</p></div>
+    </article>
+    <article class="item">
+      <div class="pic"><img src="images/feature2.jpg" alt="カフェスタンドのイメージ" loading="lazy"></div>
+      <div><span class="no">02</span><h3>食べる</h3><p>中標津町の有機牛乳を使った、ソフトクリームが楽しめるカフェスタンドです。洗濯待ちのひとときに、どうぞ。</p></div>
+    </article>
+    <article class="item">
+      <div class="pic"><img src="images/feature3.jpg" alt="ライフスタイルショップのイメージ" loading="lazy"></div>
+      <div><span class="no">03</span><h3>買う</h3><p>洗濯用品や日用雑貨を取りそろえた、ライフスタイルショップです。お洗濯が楽しくなるグッズが並びます。</p></div>
+    </article>
+  </div>
+</div></section>
+
+<section class="soft"><div class="wrap">
+  <h2><span class="en">SERVICE</span>クリーニングの受付</h2>
+  <div class="box">
+    <p>衣類クリーニングと、皮革製品メンテナンスの受付スペースがあります。</p>
+    <p>クリーニングは、無人受付設備を導入しています。専用アプリで事前に利用予約ができ、仕上がり状況もアプリで確認できます。</p>
+    <p class="note">受付・利用時間は、5:00〜25:00です。</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2><span class="en">ABOUT</span>とみおかクリーニングについて</h2>
+  <div class="box">
+    <p>とみおかクリーニングは、1950年に創業した、北海道発のクリーニング会社です。地域に根ざしたクリーニングを、続けてきました。</p>
+    <ul><li>会社名:株式会社 ハッピーツリー</li><li>代表取締役:富岡 裕喜</li></ul>
+  </div>
+</div></section>
+
+<section class="soft"><div class="wrap">
+  <h2><span class="en">VOICE</span>お客様の声</h2>
+  <div class="voices">
+    <div class="v"><div class="stars" aria-label="5段階中4">★★★★☆</div><p>初めてのコインランドリーでしたが、清潔で使いやすく、併設のカフェに店員さんもいて、分からないことを聞けて安心です。ショップを見ても楽しいし、カフェもメニューがたくさんあります。洗濯機、乾燥機、洗濯乾燥機の3種類、それぞれ台数もあり、平日昼間は混んでいません。</p></div>
+    <div class="v"><div class="stars" aria-label="5段階中4">★★★★☆</div><p>とにかく綺麗。コインランドリーをやっている間に、コーヒーフロートを飲みました。上に乗ったソフトクリームが美味しいです。</p></div>
+    <div class="v"><div class="stars" aria-label="5段階中5">★★★★★</div><p>お店の方が皆さん親切で、感じの良い方ばかりでした。ソフトクリームも美味しかったです。商品は、質の良いものばかりが陳列されている印象です。</p></div>
+    <div class="v"><div class="stars" aria-label="5段階中5">★★★★★</div><p>オシャレな雰囲気で、店員さんもステキな接客でした。オリジナルの商品も多く、拘って選んだ商品が並んでいて、掃除洗濯好きは、いるだけでテンションが上がります。カフェもやっていて、ちょっと一息つくにも最高です！なんだか居心地の良いお店だなぁと思いました。</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2><span class="en">IDEA</span>有ればいいなと思うサービス</h2>
+  <div class="box">
+    <span class="badge">ご提案</span>
+    <h3>カフェで受け渡しできる冬物・布団長期保管サービス</h3>
+    <p>冬物のコートや布団は、シーズンが終わると、しまう場所に困ります。そんなお客様に向けた、新しいサービスのご提案です。</p>
+    <ul>
+      <li>カフェでコーヒーやソフトクリームを楽しみながら、冬物や布団を預ける</li>
+      <li>クリーニングして次の冬まで長期間保管し、必要な時期にカフェで受け取る</li>
+      <li>コインランドリーを使うついでに、立ち寄れる</li>
+    </ul>
+    <p>カフェやライフスタイルショップを併設している強みを、「受け渡しの場所」として活かせるのではないでしょうか。</p>
+    <p class="note">※このセクションは企業へのご提案です。現在のサービスではありません。</p>
+  </div>
+</div></section>
+
+<section class="soft" id="access"><div class="wrap">
+  <h2><span class="en">ACCESS</span>店舗情報</h2>
+  <dl class="info">
+    <div><dt>店名</dt><dd>とみおかクリーニング w/ CAFE &amp; LAUNDRY 札幌本店</dd></div>
+    <div><dt>会社名</dt><dd>株式会社 ハッピーツリー</dd></div>
+    <div><dt>住所</dt><dd>〒060-0007 北海道札幌市中央区北7条西19丁目38-28</dd></div>
+    <div><dt>電話番号</dt><dd><a href="tel:08047315551">080-4731-5551</a></dd></div>
+    <div><dt>営業時間</dt><dd>コインランドリー・クリーニング受付 5:00〜25:00<br>カフェスタンド・ライフスタイルショップ 11:00〜18:00</dd></div>
+    <div><dt>公式サイト</dt><dd><a href="https://www.tomioka-group.co.jp/blog/shop/" target="_blank" rel="noopener">https://www.tomioka-group.co.jp/blog/shop/</a></dd></div>
+    <div><dt>お問い合わせ</dt><dd><a href="https://tomioka-cleaning.com/pages/contact" target="_blank" rel="noopener">お問い合わせフォーム</a></dd></div>
+    <div><dt>メール</dt><dd><a href="mailto:info@tomioka-group.co.jp">info@tomioka-group.co.jp</a></dd></div>
+    <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/tomiokacleaning/" target="_blank" rel="noopener">@tomiokacleaning</a></dd></div>
+  </dl>
+  <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.8143879287127!2d141.32247047565696!3d43.066371190188185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29bafe5bffff%3A0x40ec63f2fe42e406!2z44Go44G_44GK44GL44Kv44Oq44O844OL44Oz44KwIHcvIENBRkUgJiBMQVVORFJZIOacreW5jOacrOW6lw!5e0!3m2!1sja!2sjp!4v1795571028530!5m2!1sja!2sjp" title="とみおかクリーニング 札幌本店の地図" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+  <p class="maplink"><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%BF%E3%81%8A%E3%81%8B%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%20w%2F%20CAFE%20%26%20LAUNDRY%20%E6%9C%AD%E5%B9%8C%E6%9C%AC%E5%BA%97%20%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%97%EF%BC%97%E6%9D%A1%E8%A5%BF19%E4%B8%81%E7%9B%AE38-28" target="_blank" rel="noopener">Googleマップで開く</a></p>
+</div></section>
+
+<div class="final"><div class="wrap">
+  <p class="lead"><span class="nb">お洗濯のひとときを、</span><span class="nb">楽しい時間に。</span></p>
+  <a class="btn" href="tel:08047315551">080-4731-5551 に電話する</a>
+  <p class="sub"><a href="https://tomioka-cleaning.com/pages/contact" target="_blank" rel="noopener">お問い合わせフォーム</a></p>
+</div></div>
+</main>
+<footer>© とみおかクリーニング w/ CAFE &amp; LAUNDRY 札幌本店</footer>
+</body>
+</html>
